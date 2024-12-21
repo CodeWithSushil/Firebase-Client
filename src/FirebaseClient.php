@@ -1,12 +1,15 @@
-<?php
-namespace Firebase;
+<?php 
+declare(strict_types=1);
+
+namespace FirebaseClient;
+
 use Exception;
 
-class Firebase
+class FirebaseClient
 {
-  private $url;
+  private string $url;
   
-  function __construct($url=null)
+  function __construct(?string $url=null)
   {
     if(isset($url))
     {
