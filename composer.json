@@ -2,7 +2,9 @@
     "name": "codewithsushil/firebase-client",
     "description": "Firebase Client for PHP",
     "type": "library",
+    "keywords": ["php", "firebase", "client", "sdk", "firebase-client", "firebase-php"],
     "require": {
+      "php": "^8.2",
         "vlucas/phpdotenv": "^5.6"
     },
     "require-dev": {
@@ -13,7 +15,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Codewithsushil\\FirebaseClient\\": "src/"
+            "FirebaseClient\\": "src/"
         }
     },
     "authors": [
