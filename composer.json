@@ -1,0 +1,26 @@
+{
+    "name": "codewithsushil/firebase-client",
+    "description": "Firebase Client for PHP",
+    "type": "library",
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "require-dev": {
+        "guzzlehttp/guzzle": "^7.9",
+        "phpunit/phpunit": "^11.5",
+        "phpstan/phpstan": "^2.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Codewithsushil\\FirebaseClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sushil Kumar",
+            "email": "sushilkumbhar77@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
